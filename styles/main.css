@@ -7,6 +7,10 @@
 body {
     font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
     background-color: #E0F1E8;
+}
+
+.container-full {
+
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -30,6 +34,13 @@ h1 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 32px;
+}
+
+.footer .footer-p {
+    text-align: center;
+    font-weight: 500;
+    color: #464f50;
+    padding: 2rem;
 }
 
 .form-row {

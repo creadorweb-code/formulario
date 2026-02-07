@@ -9,66 +9,73 @@
 </head>
 
 <body>
-    <div class="container">
-        <form id="contactForm" class="contact-form" novalidate>
-            <h1>Contact Us</h1>
+    <div class="container-full">
+        <div class="container">
+            <form id="contactForm" class="contact-form" novalidate>
+                <h1>Contact Us</h1>
 
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="firstName">First Name *</label>
-                    <input type="text" id="firstName" name="firstName" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <span class="error-message">This field is required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <span class="error-message">This field is required</span>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Query Type *</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="generalEnquiry" name="queryType" value="general" required>
+                            <label for="generalEnquiry">General Enquiry</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="supportRequest" name="queryType" value="support" required>
+                            <label for="supportRequest">Support Request</label>
+                        </div>
+                    </div>
+                    <span class="error-message">Please select a query type</span>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
                     <span class="error-message">This field is required</span>
                 </div>
 
-                <div class="form-group">
-                    <label for="lastName">Last Name *</label>
-                    <input type="text" id="lastName" name="lastName" required>
-                    <span class="error-message">This field is required</span>
-                </div>
-            </div>
-
-            <div class="form-group full-width">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required>
-                <span class="error-message">Please enter a valid email address</span>
-            </div>
-
-            <div class="form-group full-width">
-                <label>Query Type *</label>
-                <div class="radio-group">
-                    <div class="radio-option">
-                        <input type="radio" id="generalEnquiry" name="queryType" value="general" required>
-                        <label for="generalEnquiry">General Enquiry</label>
-                    </div>
-
-                    <div class="radio-option">
-                        <input type="radio" id="supportRequest" name="queryType" value="support" required>
-                        <label for="supportRequest">Support Request</label>
+                <div class="form-group full-width">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I consent to being contacted by the team *</label>
+                        <span class="error-message">
+                            To submit this form, please consent to being contacted
+                        </span>
                     </div>
                 </div>
-                <span class="error-message">Please select a query type</span>
-            </div>
 
-            <div class="form-group full-width">
-                <label for="message">Message *</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
-                <span class="error-message">This field is required</span>
-            </div>
-
-            <div class="form-group full-width">
-                <div class="checkbox-group">
-                    <input type="checkbox" id="consent" name="consent" required>
-                    <label for="consent">I consent to being contacted by the team *</label>
-                    <span class="error-message">
-                        To submit this form, please consent to being contacted
-                    </span>
-                </div>
-            </div>
-
-            <button type="submit" class="submit-btn">Submit</button>
-        </form>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
     </div>
 
+
+    <footer class="footer">
+        <p class="footer-p">by Hugo Leyba 2026</p>
+
+    </footer>
     <!-- Cargar Supabase desde CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="/scripts/main.js"></script>
