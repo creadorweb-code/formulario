@@ -49,8 +49,8 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 - Nombre completo 
 - N° Control
 - Grupo
-- Sitio  - [Hugo](https://formulario-tareaa.netlify.app/))
-- Github - [@tuusuario](https://github.com/creadorweb-code/formulario)
+- Sitio  - [Hugo] (https://formulario-tareaa.netlify.app/))
+- Github - [@creadorweb-code] (https://github.com/creadorweb-code/formulario)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
 
