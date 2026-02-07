@@ -46,11 +46,11 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 - URL del site: https://github.com/creadorweb-code/formulario
 
 ## Autor
-- Nombre completo 
-- N° Control
-- Grupo
-- Sitio  - [Hugo] (https://formulario-tareaa.netlify.app/))
-- Github - [@creadorweb-code] (https://github.com/creadorweb-code/formulario)
+- Nombre completo: Hugo Sanchez Leyva
+- N° Control:221K0027
+- Grupo 8A
+- Sitio  -  [AA 1.1 Evaluación diagnostica] (https://formulario-tareaa.netlify.app/))
+- Github - [@creadorwe-code] (https://github.com/creadorweb-code)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
 
