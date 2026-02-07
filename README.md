@@ -43,14 +43,14 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 ### Enlaces
 
 - URL en GITHUB de tu proyecto:
-- URL del site:[Agrega la URL del sitio en vivo aquí](https://your-live-site-url.com)
+- URL del site: https://github.com/creadorweb-code/formulario
 
 ## Autor
 - Nombre completo 
 - N° Control
 - Grupo
-- Sitio  - [Agrega tu nombre aquí](https://www.your-site.com)
-- Github - [@tuusuario](https://https://github.com/tuusuario)
+- Sitio  - [Hugo](https://formulario-tareaa.netlify.app/))
+- Github - [@tuusuario](https://github.com/creadorweb-code/formulario)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
 
