@@ -42,8 +42,8 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 
 ### Enlaces
 
-- URL en GITHUB de tu proyecto:
-- URL del site: https://github.com/creadorweb-code/formulario
+- URL en GITHUB de tu proyecto: https://github.com/creadorweb-code/formulario?
+- URL del site: https://formulario-tareaa.netlify.app/
 
 ## Autor
 - Nombre completo: Hugo Sanchez Leyva
@@ -52,7 +52,7 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 - Sitio  -  [AA 1.1 Evaluación diagnostica] (https://formulario-tareaa.netlify.app/))
 - Github - [@creadorwe-code] (https://github.com/creadorweb-code)
 
-**Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
+
 
 
 
